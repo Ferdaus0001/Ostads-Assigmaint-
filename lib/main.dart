@@ -97,7 +97,7 @@ class _MyAppState extends State<MyApp> {
                   content: Text('Congratulations! Checkout Successful.'),
                 ));
               },
-              child: Text('CHECK OUT'),
+              child: Text('CHECK OUT',style: TextStyle(fontSize: 22,color: Colors.blue),),
             ),
           ],
         ),
