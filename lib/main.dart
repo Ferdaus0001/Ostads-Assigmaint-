@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("My Bag"),
+          title: Center(child: Text("My Bag")),
         ),
         body: Column(
           children: [
